@@ -93,6 +93,9 @@ export const ThemeProviderComponent: React.FC<MyComponentProps> = ({
       Table: {
         fontSize: 12,
       },
+      DatePicker: {
+        colorBgContainer: themeMode === "dark" ? "#1F1F1F" : "#FFFFFF",
+      }
     },
   };
 

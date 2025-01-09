@@ -24,6 +24,7 @@ const TaskList: React.FC<TaskListProps> = ({ title, index, taskData }) => {
                 onClick={() => onClickAddTask(true)}
                 color="#287292"
                 className="ml-1 transition-all hover:scale-95 cursor-pointer"
+                size={20}
               />
             )}
           </div>

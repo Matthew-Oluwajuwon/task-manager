@@ -15,7 +15,7 @@ const taskSlice = createSlice({
       state.showAddTaskModal = action.payload;
     },
     onShowMoreModal: (state, action: PayloadAction<boolean>) => {
-      state.showAddTaskModal = action.payload;
+      state.showMoreModal = action.payload;
     },
   },
 });

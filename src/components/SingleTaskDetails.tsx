@@ -7,7 +7,16 @@ const SingleTaskDetails = () => {
     return state.task;
   });
   const { onClickTaskDetails } = useTaskDetails();
-  return <Modal open={showMoreModal} footer={false} onCancel={() => onClickTaskDetails(false)}></Modal>;
+  return (
+    <Modal
+      open={showMoreModal}
+      footer={false}
+      width="50rem"
+      className="max-h-[80svh]"
+      onCancel={() => onClickTaskDetails(false)}
+      centered
+    ></Modal>
+  );
 };
 
 export default SingleTaskDetails;
