@@ -5,8 +5,11 @@ import {
   combineReducers,
 } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query/react";
+import { taskReducer } from "./slice/task.slice";
 
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({
+  task: taskReducer,
+});
 
 export const store = configureStore({
   reducer: rootReducer,

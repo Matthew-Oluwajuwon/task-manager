@@ -1,13 +1,17 @@
+import { useAddTask } from "@/hooks";
 import { Button, Input } from "antd";
 import { ListFilter, PlusCircle, SearchIcon } from "lucide-react";
 
 const PageHeaderActions = () => {
+  const { onClickAddTask } = useAddTask();
+
   return (
     <div className="flex items-center justify-between gap-10">
       <Button
         type="primary"
         icon={<PlusCircle />}
         className="shadow-none px-3 p-5"
+        onClick={() => onClickAddTask(true)}
       >
         <span className="hidden sm:block">Add Task</span>
       </Button>

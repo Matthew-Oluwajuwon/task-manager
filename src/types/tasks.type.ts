@@ -11,3 +11,8 @@ export interface TaskStep {
     title: string;
     data: Task[];
 }
+
+export interface TaskState {
+    showAddTaskModal: boolean;
+    showMoreModal: boolean;
+}
