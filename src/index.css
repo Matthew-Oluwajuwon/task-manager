@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default (light) theme variables */
+:root {
+  --primary-color-100: #e6f6ff;
+  --primary-color-200: #b3e6ff;
+  --primary-color-300: #80d6ff;
+  --primary-color-400: #4dc6ff;
+  --primary-color-500: #287292;
+  --primary-color-600: #006699;
+  --primary-color-700: #005580;
+  --primary-color-800: #004466;
+  --primary-color-900: #00334d;
+}
+
+/* Dark theme variables using the `dark` class */
+.dark {
+  --primary-color-100: #414141;
+  --primary-color-200: #353535;
+  --primary-color-300: #292929;
+  --primary-color-400: #1d1d1d;
+  --primary-color-500: #121212;
+  --primary-color-600: #006699;
+  --primary-color-700: #005580;
+  --primary-color-800: #004466;
+  --primary-color-900: #00334d;
+}
+
+@font-face {
+  font-family: "proxima-nova-black";
+  src: url("./assets/fonts/Fontspring-DEMO-proximanova-black.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova-regular";
+  src: url("./assets/fonts/Fontspring-DEMO-proximanova-regular.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova-bold";
+  src: url("./assets/fonts/Fontspring-DEMO-proximanova-bold.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova-medium";
+  src: url("./assets/fonts/Fontspring-DEMO-proximanova-medium.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova-semibold";
+  src: url("./assets/fonts/Fontspring-DEMO-proximanova-semibold.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova-thin";
+  src: url("./assets/fonts/Fontspring-DEMO-proximanova-thin.otf");
+}
+
+html,
+body {
+  font-family: "proxima-nova-regular", sans-serif;
+}
