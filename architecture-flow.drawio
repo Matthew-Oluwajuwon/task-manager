@@ -190,6 +190,17 @@
                 <mxCell id="59" value="THINGS TO KNOW:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in TO-DO can be moved to DOING or BACKLOG&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in DOING can be moved to TO-DO or BACKLOG&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in BACKLOG can be moved to either TO-DO or DOING&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task that are yet to be completed can't be moved to COMPLETED&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in COMPLETED can't be moved&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="150" y="510" width="380" height="200" as="geometry"/>
                 </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;" edge="1" parent="1" source="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-272.22222222222223" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="Add Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="109" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Button to add new task" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-400" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

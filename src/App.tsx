@@ -1,12 +1,12 @@
-import AppLayout from "./components/Layout/AppLayout"
-import Search from "./components/Search"
+import { AppLayout, PageHeaderActions, Tasks } from "./components";
 
 const App = () => {
   return (
     <AppLayout>
-      <Search />
+      <PageHeaderActions />
+      <Tasks />
     </AppLayout>
-  )
-}
+  );
+};
 
-export default App
+export default App;
