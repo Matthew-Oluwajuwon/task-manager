@@ -1,7 +1,11 @@
+import AppLayout from "./components/Layout/AppLayout"
+import Search from "./components/Search"
 
 const App = () => {
   return (
-    <div className="text-primary-500 font-proxima-nova-bold">App</div>
+    <AppLayout>
+      <Search />
+    </AppLayout>
   )
 }
 

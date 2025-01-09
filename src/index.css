@@ -13,6 +13,10 @@
   --primary-color-700: #005580;
   --primary-color-800: #004466;
   --primary-color-900: #00334d;
+
+  --bg-color: #ffffff;
+
+  --color-border: #e2e8f0;
 }
 
 /* Dark theme variables using the `dark` class */
@@ -26,6 +30,10 @@
   --primary-color-700: #005580;
   --primary-color-800: #004466;
   --primary-color-900: #00334d;
+
+  --bg-color: #121212;
+
+  --color-border: #2d2d2d;
 }
 
 @font-face {

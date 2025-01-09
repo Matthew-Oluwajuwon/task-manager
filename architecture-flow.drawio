@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ljIOc5DwpxO2qWYrXbpF" name="Page-1">
-        <mxGraphModel dx="2529" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2156" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -148,7 +148,7 @@
                 <mxCell id="46" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="90" y="430" width="520" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="Taskminder created by Matthew Oluewajuwon 2025" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="47" value="Task Manager created by Matthew Oluewajuwon 2025" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="210" y="437" width="330" height="15" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" style="edgeStyle=none;html=1;" edge="1" parent="1" source="48">
