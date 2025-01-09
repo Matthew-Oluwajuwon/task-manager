@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ljIOc5DwpxO2qWYrXbpF" name="Page-1">
-        <mxGraphModel dx="3238" dy="2186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2529" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -186,6 +186,9 @@
                 </mxCell>
                 <mxCell id="58" value="A filter that allows users to filter the tasks by category (i.e Work, Personal, Urgent)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="760" y="125" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="THINGS TO KNOW:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in TO-DO can be moved to DOING or BACKLOG&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in DOING can be moved to TO-DO or BACKLOG&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in BACKLOG can be moved to either TO-DO or DOING&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task that are yet to be completed can't be moved to COMPLETED&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Task in COMPLETED can't be moved&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="510" width="380" height="200" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
