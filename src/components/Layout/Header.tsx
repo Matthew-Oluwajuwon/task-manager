@@ -6,11 +6,11 @@ const Header = () => {
   const { themeMode, toggleTheme } = useTheme(); // Get the current theme mode and the toggle function
 
   return (
-    <header className="p-5 py-2 border-b border-b-color-border flex items-center justify-between">
+    <header className="p-5 py-3 border-b border-b-color-border flex items-center justify-between">
       {/* Title of the app */}
-      <Typography.Title className="m-0 mt-1 !text-base sm:!text-2xl uppercase font-proxima-nova-bold">
+      <Typography className="m-0 mt-1 !text-base sm:!text-2xl uppercase font-proxima-nova-bold">
         Task Manager
-      </Typography.Title>
+      </Typography>
 
       {/* Theme toggle switch */}
       <Switch

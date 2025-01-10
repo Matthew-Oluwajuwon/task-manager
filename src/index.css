@@ -70,3 +70,50 @@ html,
 body {
   font-family: "proxima-nova-regular", sans-serif;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  border-radius: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eef2f8;
+  /* display: none; */
+  border-radius: 12px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #424242;
+}
+
+::-webkit-scrollbar-track:hover {
+  display: block;
+  border-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  display: none;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d0d5dd;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Handle on hover */
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #777777;
+}
+
+.ant-input-outlined:focus,
+.ant-input-outlined:focus-within{
+  box-shadow: none !important;
+}
