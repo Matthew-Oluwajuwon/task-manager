@@ -78,7 +78,7 @@ export const ThemeProviderComponent: React.FC<MyComponentProps> = ({
         fontSize: 13,
       },
       Input: {
-        controlHeight: 45,
+        controlHeight: 40,
         colorFillAlter: "#287292",
         colorBorder: themeMode === "dark" ? "#444444" : "#E8E8E8",
         colorBgContainer: themeMode === "dark" ? "#1F1F1F" : "#FFFFFF",
@@ -93,6 +93,9 @@ export const ThemeProviderComponent: React.FC<MyComponentProps> = ({
       Table: {
         fontSize: 12,
       },
+      DatePicker: {
+        colorBgContainer: themeMode === "dark" ? "#1F1F1F" : "#FFFFFF",
+      }
     },
   };
 
